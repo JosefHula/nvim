@@ -16,6 +16,8 @@ return {
   },
   keys = {
     -- You probably also want to set a keymap to toggle aerial
-    { '<leader>a', '<cmd>AerialToggle!<CR>', desc = 'Toggle Aerial' },
+    { '<leader>al', '<cmd>AerialToggle! left<CR>', desc = '[A]erial vertical [L]eft' },
+    { '<leader>ar', '<cmd>AerialToggle! right<CR>', desc = '[A]erial vertical [R]ight' },
+    { '<leader>af', '<cmd>AerialToggle float<CR>', desc = '[A]erial [F]loat' },
   },
 }
